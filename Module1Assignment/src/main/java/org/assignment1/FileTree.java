@@ -83,17 +83,18 @@ public class FileTree {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the folder path to scan: ");
+        System.out.print("The absolute file path is needed to perform the scan.");
+        System.out.print("\nEnter the absolute file path to scan: ");
         String path = scanner.nextLine();
 
         File folder = new File(path);
         if (!folder.exists() || !folder.isDirectory()) {
-            System.out.println("Oops! That doesn't look like a valid folder path.");
+            System.out.println("Path not found. Exiting program.");
             return;
         }
 
         FileTree tree = new FileTree(path);
-        System.out.println("\nHere's the folder tree:");
+        System.out.println("\nFolder tree starts here:");
         tree.printTree(0);
     }
 }
