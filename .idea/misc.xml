@@ -7,7 +7,14 @@
         <option value="$PROJECT_DIR$/Module1Assignment/pom.xml" />
         <option value="$PROJECT_DIR$/Module2Assignment/pom.xml" />
         <option value="$PROJECT_DIR$/Module3Assignment/pom.xml" />
+        <option value="$PROJECT_DIR$/Module4Assignment/pom.xml" />
+        <option value="$PROJECT_DIR$/Module4Assignemnt/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Module4Assignment/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
